@@ -2,6 +2,20 @@
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
+//AMSURG Base Colors
+$amsurg-blue: #004b8d !default;
+$teal-green: #279594 !default;
+$pale-teal: #9abdaa !default;
+$slate-grey: #58595b !default;
+$amsurg-green: #78a22f !default;
+$dusty-orange: #f58025 !default;
+$tiffany-blue: #87ddd1 !default;
+$denim: #3b6e8f !default;
+$copper: #cf3828 !default;
+$cool-grey: #91a585 !default;
+$light-grey-blue: #abd8bf !default;
+$sidebar-background: #edeff4 !default;
+
 $font-color: #66615b !default;
 $fill-font-color: rgba(255, 255, 255, 0.8);
 $font-family-sans-serif: "Montserrat", "Helvetica", Arial, sans-serif;
@@ -350,7 +364,7 @@ $social-linkedin: #0077b5 !default;
 $social-linkedin-state-color: darken(#0077b5, 5%) !default;
 
 // Sidebar variables
-$sidebar-width: calc(100% - 260px) !default;
+$sidebar-width: calc(100% - 384px) !default;
 $sidebar-mini-width: calc(100% - 80px) !default;
 
 // Social icons color

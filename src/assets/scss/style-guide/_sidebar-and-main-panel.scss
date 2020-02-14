@@ -15,7 +15,7 @@
   top: 0;
   height: 100%;
   bottom: 0;
-  width: 260px;
+  width: 384px;
   left: 0;
   z-index: 999;
 
@@ -23,9 +23,10 @@
     position: relative;
     height: calc(100vh - 75px);
     overflow: auto;
-    width: 260px;
+    width: 384px;
     z-index: 4;
     padding-bottom: 100px;
+    background-color: $sidebar-background;
 
     .dropdown .dropdown-backdrop {
       display: none !important;
@@ -66,7 +67,7 @@
           float: left;
           z-index: 1;
           display: inherit;
-          color: $opacity-5;
+          color: $amsurg-blue;
         }
 
         .sidebar-normal {
@@ -122,7 +123,7 @@
 
       > a {
         margin: 10px 15px 0;
-        color: $white-color;
+        color: $slate-grey;
         display: block;
         text-decoration: none;
         position: relative;
@@ -158,7 +159,7 @@
       &.active > a[data-toggle="collapse"] i,
       &.active > a[data-toggle="collapse"] ~ div > ul > li.active i,
       &.active > a[data-toggle="collapse"] ~ div > ul > li.active > a {
-        color: $danger-color;
+        color: $amsurg-blue;
 
         & + div .nav .active a {
           background-color: transparent;
@@ -179,13 +180,14 @@
     }
 
     p {
+      font-size: 26px;
       margin: 0;
       line-height: 30px;
       position: relative;
       display: block;
       height: auto;
       white-space: nowrap;
-      font-weight: 600;
+      font-weight: 500;
       @extend .animation-transition-general;
     }
 
@@ -196,7 +198,7 @@
       line-height: 30px;
       width: 34px;
       text-align: center;
-      color: $opacity-5;
+      color: $slate-grey;
       position: relative;
     }
 
@@ -207,6 +209,27 @@
       }
     }
   }
+  // ul.nav {
+  //   li {
+  //     i {
+  //       color: $slate-grey;
+  //     }
+
+  //     p {
+  //       color: $slate-grey;
+  //     }
+  //   }
+
+  //   li.active {
+  //     i {
+  //       color: $amsurg-blue;
+  //     }
+
+  //     p {
+  //       color: $amsurg-blue;
+  //     }
+  //   }
+  // }
 
   .sidebar-background {
     position: absolute;
@@ -235,6 +258,7 @@
     position: relative;
     padding: 7px $padding-base-horizontal;
     z-index: 4;
+    background-color: $amsurg-blue;
 
     a.logo-mini,
     a.logo-normal {
@@ -253,8 +277,11 @@
     a.logo-normal {
       display: block;
       opacity: 1;
-      padding: 11px 0 8px;
       @include transform-translate-x(0px);
+
+      img {
+        padding: 24px 31px;
+      }
     }
 
     &:after {
@@ -290,21 +317,6 @@
     }
   }
 
-  .logo-tim {
-    border-radius: 50%;
-    border: 1px solid #333;
-    display: block;
-    height: 61px;
-    width: 61px;
-    float: left;
-    overflow: hidden;
-
-    img {
-      width: 60px;
-      height: 60px;
-    }
-  }
-
   &:before,
   &:after {
     display: block;
@@ -320,32 +332,6 @@
   &:after {
     @include icon-gradient($default-color);
     z-index: 3;
-  }
-
-  &[data-color="white"] {
-    @include sidebar-color($white-color);
-    @include sidebar-text-color($default-color);
-  }
-  &[data-color="brown"] {
-    @include sidebar-color($default-color);
-  }
-
-  // Active color changing
-
-  &[data-active-color="primary"] {
-    @include sidebar-active-color($primary-color);
-  }
-  &[data-active-color="info"] {
-    @include sidebar-active-color($info-color);
-  }
-  &[data-active-color="success"] {
-    @include sidebar-active-color($success-color);
-  }
-  &[data-active-color="warning"] {
-    @include sidebar-active-color($warning-color);
-  }
-  &[data-active-color="danger"] {
-    @include sidebar-active-color($danger-color);
   }
 
   .user {
@@ -427,6 +413,12 @@
       background: rgba(200, 200, 200, 0.2);
     }
   }
+}
+body .sidebar .logo a.logo-mini {
+  display: none;
+}
+body.sidebar-mini .sidebar .logo a.logo-mini {
+  display: block;
 }
 
 .main-panel {
@@ -523,7 +515,7 @@
     }
 
     .sidebar:hover {
-      width: 260px;
+      width: 384px;
 
       .logo {
         a.logo-normal {
@@ -536,7 +528,7 @@
         opacity: 1;
       }
       .sidebar-wrapper {
-        width: 260px;
+        width: 384px;
 
         > .nav li > a p,
         > .nav [data-toggle="collapse"] ~ div > ul > li > a .sidebar-normal,
@@ -619,14 +611,7 @@
   overflow: hidden;
 
   img {
-    width: 51%;
+    width: 70%;
     vertical-align: unset;
-    height: 55px;
-  }
-}
-
-.sidebar {
-  &[data-color="white"] {
-    border-right: 1px solid #ddd;
   }
 }
