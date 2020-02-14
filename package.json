@@ -1,6 +1,8 @@
 {
   "name": "amsurg-style-guide",
   "version": "0.1.0",
+  "description": "AMSURG Style Guide",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.2",
@@ -30,7 +32,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile-sass": "node-sass src/assets/scss/amsurg-style-guide.scss src/assets/css/amsurg-style-guide.css",
+    "minify-sass": "node-sass src/assets/scss/amsurg-style-guide.scss src/assets/css/amsurg-style-guide.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/amsurg-style-guide.scss src/assets/css/amsurg-style-guide.css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,79 +1,79 @@
-//  @import 'style-guide/variables';
-//  @import 'style-guide/mixins';
+@import "style-guide/variables";
+@import "style-guide/mixins";
 
-//  // Plugins CSS
-//  @import 'style-guide/plugins/plugin-bootstrap-switch';
-//  @import 'style-guide/plugins/plugin-bootstrap-table';
-//  @import 'style-guide/plugins/plugin-nouislider';
-//  @import 'style-guide/plugins/plugin-animate-bootstrap-notify';
-//  @import 'style-guide/plugins/plugin-perfect-scrollbar';
-//  @import 'style-guide/plugins/plugin-sweetalert2';
-//  @import 'style-guide/plugins/plugin-card-wizard';
-//  @import 'style-guide/plugins/plugin-datetimepicker';
-//  @import 'style-guide/plugins/plugin-bootstrap-select';
-//  @import 'style-guide/plugins/plugin-jasny-fileupload';
-//  @import 'style-guide/plugins/plugin-tagsinput';
-//  @import 'style-guide/plugins/plugin-datatables.net';
-//  @import 'style-guide/plugins/plugin-jquery.jvectormap';
-//  @import 'style-guide/plugins/plugin-fullcalendar';
+// //  // Plugins CSS
+@import "style-guide/plugins/plugin-bootstrap-switch";
+@import "style-guide/plugins/plugin-bootstrap-table";
+@import "style-guide/plugins/plugin-nouislider";
+@import "style-guide/plugins/plugin-animate-bootstrap-notify";
+@import "style-guide/plugins/plugin-perfect-scrollbar";
+@import "style-guide/plugins/plugin-sweetalert2";
+@import "style-guide/plugins/plugin-card-wizard";
+@import "style-guide/plugins/plugin-datetimepicker";
+@import "style-guide/plugins/plugin-bootstrap-select";
+@import "style-guide/plugins/plugin-jasny-fileupload";
+@import "style-guide/plugins/plugin-tagsinput";
+@import "style-guide/plugins/plugin-datatables.net";
+@import "style-guide/plugins/plugin-jquery.jvectormap";
+@import "style-guide/plugins/plugin-fullcalendar";
 
-// Core CSS
-// @import 'style-guide/nucleo-outline';
-@import 'style-guide/buttons';
-// @import 'style-guide/social-buttons';
-// @import 'style-guide/animated-buttons';
-// @import 'style-guide/inputs';
-// @import 'style-guide/typography';
-// @import 'style-guide/misc';
-// @import 'style-guide/misc-extend';
-// @import 'style-guide/navbar';
-// @import 'style-guide/dropdown';
-// @import 'style-guide/alerts';
-// @import 'style-guide/images';
-// @import 'style-guide/tables';
-// @import 'style-guide/footers';
-// @import 'style-guide/fixed-plugin';
+// // Core CSS
+//@import "style-guide/nucleo-outline";
+@import "style-guide/buttons";
+@import "style-guide/social-buttons";
+@import "style-guide/animated-buttons";
+@import "style-guide/inputs";
+@import "style-guide/typography";
+@import "style-guide/misc";
+@import "style-guide/misc-extend";
+@import "style-guide/navbar";
+@import "style-guide/dropdown";
+@import "style-guide/alerts";
+@import "style-guide/images";
+@import "style-guide/tables";
+@import "style-guide/footers";
+@import "style-guide/fixed-plugin";
 
-//  // components
-//  @import 'style-guide/checkboxes-radio';
-//  @import 'style-guide/progress';
-//  @import 'style-guide/badges';
-//  @import 'style-guide/pagination';
-//  @import 'style-guide/info-areas';
-//  @import 'style-guide/pills';
-//  @import 'style-guide/tabs';
-//  @import 'style-guide/popups';
-//  @import 'style-guide/modals';
-//  @import 'style-guide/carousel';
-//  @import 'style-guide/sidebar-and-main-panel';
-//  @import 'style-guide/timeline';
+// components
+@import "style-guide/checkboxes-radio";
+@import "style-guide/progress";
+@import "style-guide/badges";
+@import "style-guide/pagination";
+@import "style-guide/info-areas";
+@import "style-guide/pills";
+@import "style-guide/tabs";
+@import "style-guide/popups";
+@import "style-guide/modals";
+@import "style-guide/carousel";
+@import "style-guide/sidebar-and-main-panel";
+@import "style-guide/timeline";
 
-//  // cards
-//  @import 'style-guide/cards';
-//  @import "style-guide/cards/card-chart";
-//  @import "style-guide/cards/card-map";
-//  @import "style-guide/cards/card-user";
+// // cards
+@import "style-guide/cards";
+@import "style-guide/cards/card-chart";
+@import "style-guide/cards/card-map";
+@import "style-guide/cards/card-user";
 
-//  @import "style-guide/cards/card-background";
-//  @import "style-guide/cards/card-collapse";
-//  @import "style-guide/cards/card-contributions";
-//  @import "style-guide/cards/card-info-area";
-//  @import "style-guide/cards/card-lock";
-//  @import "style-guide/cards/card-pricing";
-//  @import "style-guide/cards/card-profile";
-//  @import "style-guide/cards/card-signup";
-//  @import "style-guide/cards/card-stats-mini";
-//  @import "style-guide/cards/card-stats";
-//  @import "style-guide/cards/card-subcategories";
-//  @import "style-guide/cards/card-testimonials";
-//  @import "style-guide/cards/card-tasks";
+@import "style-guide/cards/card-background";
+@import "style-guide/cards/card-collapse";
+@import "style-guide/cards/card-contributions";
+@import "style-guide/cards/card-info-area";
+@import "style-guide/cards/card-lock";
+@import "style-guide/cards/card-pricing";
+@import "style-guide/cards/card-profile";
+@import "style-guide/cards/card-signup";
+@import "style-guide/cards/card-stats-mini";
+@import "style-guide/cards/card-stats";
+@import "style-guide/cards/card-subcategories";
+@import "style-guide/cards/card-testimonials";
+@import "style-guide/cards/card-tasks";
 
-//  // example pages and sections
-//  @import 'style-guide/example-pages';
-//  @import 'style-guide/sections';
+// example pages and sections
+@import "style-guide/example-pages";
+@import "style-guide/sections";
 
-//  @import 'style-guide/responsive';
-//  @import 'style-guide/media-queries';
+@import "style-guide/responsive";
+@import "style-guide/media-queries";
 
-//  // react differences
-//  @import "style-guide/react/react-differences";
+// react differences
+@import "style-guide/react/react-differences";
