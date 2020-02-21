@@ -17,7 +17,7 @@ import Icons from "./views/components/Icons";
 // import RegularForms from "views/forms/RegularForms.jsx";
 // import RegularTables from "views/tables/RegularTables.jsx";
 // import SweetAlert from "views/components/SweetAlert.jsx";
-import Colors from "./views/pages/Colors.jsx";
+import Colors from "./views/components/Colors";
 // import Typography from "views/components/Typography.jsx";
 // import UserProfile from "views/pages/UserProfile.jsx";
 // import ValidationForms from "views/forms/ValidationForms.jsx";

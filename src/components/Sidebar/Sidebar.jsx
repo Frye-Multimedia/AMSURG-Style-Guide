@@ -59,7 +59,7 @@ class Sidebar extends React.Component {
             key={key}
           >
             <a
-              href="#pablo"
+              href="#Daniel"
               data-toggle="collapse"
               aria-expanded={this.state[prop.state]}
               onClick={e => {
@@ -69,7 +69,7 @@ class Sidebar extends React.Component {
             >
               {prop.icon !== undefined ? (
                 <>
-                  <MaterialIcon icon={prop.icon} size={40} />
+                  <MaterialIcon icon={prop.icon} size={26} />
                   <p>
                     {prop.name}
                     <b className="caret" />
@@ -96,7 +96,7 @@ class Sidebar extends React.Component {
           <NavLink to={prop.layout + prop.path} activeClassName="">
             {prop.icon !== undefined ? (
               <>
-                <MaterialIcon icon={prop.icon} size={40} />
+                <MaterialIcon icon={prop.icon} size={26} />
                 <p>{prop.name}</p>
               </>
             ) : (

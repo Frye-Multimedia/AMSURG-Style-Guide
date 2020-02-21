@@ -24,8 +24,14 @@ class Dashboard extends React.Component {
       <>
         <div className="content">
           <Row>
-            <Col sm="6">
-              <h1>What do you call a fake noodle? An Impasta!</h1>
+            <Col md="12">
+              <Card>
+                <CardHeader>
+                  <CardTitle>
+                    <h1>What do you call a fake noodle? An Impasta!</h1>
+                  </CardTitle>
+                </CardHeader>
+              </Card>
             </Col>
           </Row>
         </div>
