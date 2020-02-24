@@ -1,4 +1,5 @@
 import React from "react";
+import dashboardHeader from "assets/img/dashboardHeader.svg";
 
 // reactstrap components
 import {
@@ -28,6 +29,7 @@ class Dashboard extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle>
+                  <img src={dashboardHeader} alt="Header" />
                     <h1>What do you call a fake noodle? An Impasta!</h1>
                   </CardTitle>
                 </CardHeader>
