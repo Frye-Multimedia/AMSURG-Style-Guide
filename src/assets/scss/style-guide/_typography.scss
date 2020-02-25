@@ -5,14 +5,6 @@ select,
 textarea {
   font-family: $sans-serif-family;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: $font-weight-normal;
-}
 
 a {
   color: $primary-color;
@@ -24,49 +16,68 @@ a {
 h1,
 .h1 {
   font-size: $font-size-h1;
-  line-height: 1.15;
-  margin-bottom: $margin-base-vertical * 2;
+  line-height: 1.5;
+  margin-bottom: $margin-base-vertical * 3;
+  font-weight: $font-weight-bold;
 
-  small {
-    font-weight: $font-weight-bold;
-    text-transform: uppercase;
-    opacity: 0.8;
+  @include mobile-only {
+    font-size: $font-size-mobile-h1;
   }
 }
 h2,
 .h2 {
   font-size: $font-size-h2;
-  margin-bottom: $margin-base-vertical * 2;
+  margin-bottom: $margin-base-vertical * 3;
+  font-weight: $font-weight-bold;
+  line-height: 1.5;
+
+  @include mobile-only {
+    font-size: $font-size-mobile-h2;
+  }
 }
 h3,
 .h3 {
   font-size: $font-size-h3;
-  margin-bottom: $margin-base-vertical * 2;
-  line-height: 1.4em;
+  margin-bottom: $margin-base-vertical * 3;
+  line-height: 1.5;
+  font-weight: $font-weight-normal;
+
+  @include mobile-only {
+    font-size: $font-size-mobile-h3;
+  }
 }
 h4,
 .h4 {
   font-size: $font-size-h4;
-  line-height: 1.45em;
-  margin-top: $margin-base-vertical * 2;
-  margin-bottom: $margin-base-vertical;
+  line-height: 1.5;
+  margin-bottom: $margin-base-vertical * 3;
+  font-weight: $font-weight-semi;
 
   & + .category,
   &.title + .category {
     margin-top: -10px;
   }
+
+  @include mobile-only {
+    font-size: $font-size-mobile-h4;
+  }
 }
 h5,
 .h5 {
   font-size: $font-size-h5;
-  line-height: 1.4em;
-  margin-bottom: 15px;
+  line-height: 1.5;
+  margin-bottom: $margin-base-vertical * 3;
+  font-weight: $font-weight-semi;
+
+  @include mobile-only {
+    font-size: $font-size-mobile-h5;
+  }
 }
 h6,
 .h6 {
   font-size: $font-size-h6;
   font-weight: $font-weight-bold;
-  text-transform: uppercase;
+  line-height: 1.5;
 }
 p {
   &.description {

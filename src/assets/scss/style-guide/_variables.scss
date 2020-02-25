@@ -18,14 +18,16 @@ $sidebar-background: #edeff4 !default;
 
 $font-color: #66615b !default;
 $fill-font-color: rgba(255, 255, 255, 0.8);
-$font-family-sans-serif: "Montserrat", "Helvetica", Arial, sans-serif;
-$sans-serif-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: 'Montserrat', 'Helvetica', Arial, sans-serif;
+$sans-serif-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 
 $none: 0 !default;
 $border-thin: 1px !default;
 $border-thick: 2px !default;
 
 $white-color: #ffffff !default;
+$white: #fff !default;
+$black: #000000 !default;
 $white-bg: #ffffff !default;
 $orange-bg: #e95e38 !default;
 
@@ -152,7 +154,7 @@ $padding-dropdown-vertical: 10px !default;
 $padding-dropdown-horizontal: 15px !default;
 
 $margin-large-vertical: 30px !default;
-$margin-base-vertical: 15px !default;
+$margin-base-vertical: 8px !default;
 
 // border radius for buttons
 $border-radius-none: 0px !default;
@@ -251,18 +253,23 @@ $btn-icon-size-small: 1.875rem !default;
 $btn-icon-font-size-lg: 1.325rem !default;
 $btn-icon-size-lg: 3.6rem !default;
 
-$font-size-h1: 3.5em !default; // ~ 49px
-$font-size-h2: 2.5em !default; // ~ 35px
-$font-size-h3: 2em !default; // ~ 28px
-$font-size-h4: 1.714em !default; // ~ 24px
-$font-size-h5: 1.57em !default; // ~ 22px
-$font-size-h6: 1em !default; // ~ 14px
+$font-size-h1: 3em !default; // ~ 48px
+$font-size-mobile-h1: 2.25em !default; // ~ 36px
+$font-size-h2: 2em !default; // ~ 32px
+$font-size-mobile-h2: 1.625em !default; // ~ 26px
+$font-size-h3: 1.625em !default; // ~ 26px
+$font-size-mobile-h3: 1.375em !default; // ~ 22px
+$font-size-h4: 1.188em !default; // ~ 19px
+$font-size-mobile-h4: 1em !default; // ~ 16px
+$font-size-h5: 1.188em !default; // ~ 19px
+$font-size-mobile-h5: 1em !default; // ~ 16px
+$font-size-h6: 1em !default; // ~ 16px
 
 $font-paragraph: 1em !default;
 $font-size-navbar: 1em !default;
 $font-size-mini: 0.7142em !default;
 $font-size-small: 0.8571em !default;
-$font-size-base: 14px !default;
+$font-size-base: 16px !default;
 $font-size-large: 1rem !default;
 $font-size-large-navbar: 20px !default;
 $font-size-blockquote: 1.1em !default; // ~ 15px
@@ -272,7 +279,7 @@ $font-size-xs: 12px !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-semi: 600 !default;
-$font-weight-bold: 700 !default;
+$font-weight-bold: 900 !default;
 
 $line-height-general: 1.5 !default;
 $line-height-nav-link: 1.625rem !default;
@@ -287,7 +294,7 @@ $dropdown-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.125);
 $box-shadow-raised: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
 $box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
 $sidebar-box-shadow: 0px 2px 22px 0 rgba(0, 0, 0, 0.2),
-  0px 2px 30px 0 rgba(0, 0, 0, 0.35);
+	0px 2px 30px 0 rgba(0, 0, 0, 0.35);
 
 $general-transition-time: 300ms !default;
 
@@ -343,7 +350,7 @@ $bottombar-back: bottombar-back !default;
 
 //Nucleo Icons
 
-$nc-font-path: "../fonts" !default;
+$nc-font-path: '../fonts' !default;
 $nc-font-size-base: 14px !default;
 $nc-css-prefix: nc !default;
 $nc-background-color: #eee !default;
@@ -408,3 +415,5 @@ $social-behance-state-color: lighten(#1769ff, 6%) !default;
 $input-color-placeholder: #999 !default;
 
 $zindex-select-dropdown: 1060 !default; // must be higher than a modal background (1050)
+
+// Media Query Breakpoints

@@ -27,12 +27,8 @@ class Dashboard extends React.Component {
           <Row>
             <Col md="12">
               <Card>
-                <CardHeader>
-                  <CardTitle>
-                  <img src={dashboardHeader} alt="Header" />
-                    <h1>What do you call a fake noodle? An Impasta!</h1>
-                  </CardTitle>
-                </CardHeader>
+                <img className="img-fluid mx-auto w-100"src={dashboardHeader} alt="Header" />
+                <h1>What do you call a fake noodle ? An Impasta!</h1>
               </Card>
             </Col>
           </Row>

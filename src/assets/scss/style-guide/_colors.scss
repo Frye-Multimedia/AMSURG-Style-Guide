@@ -1,0 +1,31 @@
+.colorName {
+	margin-bottom: $margin-base-vertical;
+}
+.colorContainer {
+	max-width: 300px;
+}
+.colorSquare {
+	height: 238px;
+}
+.accessibilityStandards {
+	vertical-align: bottom;
+	text-align: center;
+
+	.failA {
+		font-size: 19px;
+		font-weight: $font-weight-semi;
+	}
+	.failA2,
+	.passA2 {
+		padding-top: 3px;
+	}
+
+	.failB,
+	.failB2 {
+		color: $white;
+		background-color: $black;
+		size: 12px;
+		padding: 5px 10px;
+		border-radius: 6px;
+	}
+}
