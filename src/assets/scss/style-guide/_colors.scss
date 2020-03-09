@@ -12,7 +12,7 @@
 	text-align: center;
 
 	.failA {
-		font-size: 19px;
+		font-size: 1.188em;
 		font-weight: $font-weight-semi;
 	}
 	.failA2,
@@ -28,4 +28,14 @@
 		padding: 5px 10px;
 		border-radius: 6px;
 	}
+	.passA {
+		font-size: 1.188em;
+		color: $white;
+		font-weight: $font-weight-semi;
+	}
+}
+.accessibilityContain {
+	width: 300px;
+	position: absolute;
+	bottom: 10px;
 }
